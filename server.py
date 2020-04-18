@@ -189,5 +189,5 @@ app = tornado.web.Application([
     (r'/upload', UploadHandler),
     (r'/visualise-file', VisuliseFileHandler)
 ], static_path='./static', max_buffer_size=10485760000,debug=True)
-app.listen(8001)
+app.listen(8050)
 tornado.ioloop.IOLoop.instance().start()
